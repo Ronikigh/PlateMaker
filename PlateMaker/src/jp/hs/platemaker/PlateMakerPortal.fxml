@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="platePortal" prefHeight="200.0" prefWidth="320.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="jp.hs.platemaker.PlateMakerPortalController">
+  <children>
+    <Button fx:id="button" layoutX="44.0" layoutY="52.0" minHeight="15.999908447265625" onAction="#handleEasyPrintButtonAction" prefHeight="97.0" prefWidth="97.0" text="Easy Print" />
+    <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16.0" minWidth="69.0" />
+    <Button id="button" layoutX="184.0" layoutY="52.0" minHeight="15.999908447265625" onAction="#handleButtonAction" prefHeight="97.0" prefWidth="97.0" text="Click Me!" />
+  </children>
+</AnchorPane>
